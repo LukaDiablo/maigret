@@ -117,40 +117,43 @@ class SherlockFuturesSession(FuturesSession):
 
 
 async def get_response(request_future, error_type, social_network, logger):
-    response = None
+    html_text = None
+    status_code = 0
 
-    error_context = "General Unknown Error"
+    error_text = "General Unknown Error"
     expection_text = None
 
     try:
         response = await request_future
 
-        response.status_code = response.status
+        status_code = response.status
         response_content = await response.content.read()
         charset = response.charset or 'utf-8'
         decoded_content = response_content.decode(charset, 'ignore')
-        response.text = decoded_content
+        html_text = decoded_content
 
-        if response.status:
-            error_context = None
+        if status_code > 0:
+            error_text = None
+
+        logger.debug(html_text)
 
     except asyncio.exceptions.TimeoutError as errt:
-        error_context = "Timeout Error"
+        error_text = "Timeout Error"
         expection_text = str(errt)
     except aiohttp.client_exceptions.ClientConnectorError as err:
-        error_context = "Error Connecting"
+        error_text = "Error Connecting"
         expection_text = str(err)
     except aiohttp.http_exceptions.BadHttpMessage as err:
-        error_context = "HTTP Error"
+        error_text = "HTTP Error"
         expection_text = str(err)
     except Exception as err:
         logger.warning(f'Unhandled error while requesting {social_network}: {err}')
         logger.debug(err, exc_info=True)
-        error_context = "Some Error"
+        error_text = "Some Error"
         expection_text = str(err)
 
     # TODO: return only needed information
-    return response, error_context, expection_text
+    return html_text, status_code, error_text, expection_text
 
 
 async def sherlock(username, site_data, query_notify, logger,
@@ -362,6 +365,8 @@ async def sherlock(username, site_data, query_notify, logger,
 
         # Retrieve other site information again
         url = results_site.get("url_user")
+        logger.debug(url)
+
         status = results_site.get("status")
         if status is not None:
             # We have already determined the user doesn't exist here
@@ -379,57 +384,40 @@ async def sherlock(username, site_data, query_notify, logger,
             logger.error(f'No response for {social_network}')
             continue
 
-        r, error_text, expection_text = resp
+        html_text, status_code, error_text, expection_text = resp
 
-        #Get response time for response of our request.
-        try:
-            response_time = r.elapsed
-        except AttributeError:
-            response_time = None
+        # TODO: add elapsed request time counting
+        response_time = None
 
         if debug:
             with open('debug.txt', 'a') as f:
-                status = r and r.status_code or 'No response'
+                status = status_code or 'No response'
                 f.write(f'url: {url}\nerror: {str(error_text)}\nr: {status}\n')
-                if r and r.text:
-                    f.write(f'code: {r.status_code}\nheaders: {str(r.headers)}\nresponse: {str(r.text)}\n')
-
-        # Attempt to get request information
-        try:
-            http_status = r.status_code
-        except:
-            http_status = '?'
-        try:
-            response_text = r.text
-        except Exception as e:
-            logger.debug(f'Error while decoding server response: {e}')
-            response_text = ''
+                if html_text:
+                    f.write(f'code: {status}\nresponse: {str(html_text)}\n')
 
         # TODO: move info separate module
-        def detect_error_page(response, text, fail_flags, ignore_403):
-            if response is None:
-                return '', 'No connection'
-
+        def detect_error_page(html_text, status_code, fail_flags, ignore_403):
             # Detect service restrictions such as a country restriction
             for flag, msg in fail_flags.items():
-                if flag in text:
+                if flag in html_text:
                     return 'Some site error', msg
 
             # Detect common restrictions such as provider censorship and bot protection 
             for flag, msg in common_errors.items():
-                if flag in text:
+                if flag in html_text:
                     return 'Error', msg
 
             # Detect common site errors
-            code = response.status_code
-            if code == 403 and not ignore_403:
+            if status_code == 403 and not ignore_403:
                 return 'Access denied', 'Access denied, use proxy/vpn'
-            elif code >= 500:
-                return f'Error {code}', f'Site error {code}'
+            elif status_code >= 500:
+                return f'Error {status_code}', f'Site error {status_code}'
 
             return None, None
 
-        error_context, error_text = detect_error_page(r, response_text, failure_errors, 'ignore_403' in net_info)
+        if status_code and not error_text:
+            error_text, site_error_text = detect_error_page(html_text, status_code, failure_errors, 'ignore_403' in net_info)
 
         if error_text is not None:
             result = QueryResult(username,
@@ -443,7 +431,7 @@ async def sherlock(username, site_data, query_notify, logger,
             is_absence_flags_list = isinstance(absence_flags, list)
             absence_flags_set = set(absence_flags) if is_absence_flags_list else set({absence_flags})
             # Checks if the error message is in the HTML
-            is_absence_detected = any([(absence_flag in response_text) for absence_flag in absence_flags_set])
+            is_absence_detected = any([(absence_flag in html_text) for absence_flag in absence_flags_set])
             if not is_absence_detected:
                 result = QueryResult(username,
                                      social_network,
@@ -458,7 +446,7 @@ async def sherlock(username, site_data, query_notify, logger,
                                      query_time=response_time)
         elif error_type == "status_code":
             # Checks if the status code of the response is 2XX
-            if not r.status_code >= 300 or r.status_code < 200:
+            if not status_code >= 300 or status_code < 200:
                 result = QueryResult(username,
                                      social_network,
                                      url,
@@ -476,7 +464,7 @@ async def sherlock(username, site_data, query_notify, logger,
             # match the request.  Instead, we will ensure that the response
             # code indicates that the request was successful (i.e. no 404, or
             # forward to some odd redirect).
-            if 200 <= r.status_code < 300:
+            if 200 <= status_code < 300:
                 result = QueryResult(username,
                                      social_network,
                                      url,
@@ -495,9 +483,9 @@ async def sherlock(username, site_data, query_notify, logger,
 
         extracted_ids_data = ''
 
-        if ids_search and r and result.status == QueryStatus.CLAIMED:
+        if ids_search and result.status == QueryStatus.CLAIMED:
             try:
-                extracted_ids_data = extract(r.text)
+                extracted_ids_data = extract(html_text)
             except Exception as e:
                 logger.warning(f'Error while parsing {social_network}: {e}', exc_info=True)
 
@@ -519,8 +507,8 @@ async def sherlock(username, site_data, query_notify, logger,
         results_site['status'] = result
 
         # Save results from request
-        results_site['http_status'] = http_status
-        results_site['response_text'] = response_text
+        results_site['http_status'] = status_code
+        results_site['response_text'] = html_text
 
         # Add this site's results into final dictionary with all of the other results.
         results_total[social_network] = results_site

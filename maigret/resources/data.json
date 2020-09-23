@@ -3498,6 +3498,7 @@
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Mpgh": {
+    "disabled": true,
     "errorMsg": "This user has not registered and therefore does not have a profile to view.",
     "errorType": "message",
     "rank": 25957,
@@ -6992,7 +6993,7 @@
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "forums.serebii.net": {
-    "errorMsg": "<title>Notable Members",
+    "errorMsg": "The specified member cannot be found.",
     "errorType": "message",
     "rank": 7883,
     "tags": [

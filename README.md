@@ -25,7 +25,7 @@ Currently supported **[>600 sites](/sites.md)**, the list grows every day.
 
 ## Installation
 
-**NOTE**: Python 3.6 or higher and pip is required.
+**NOTE**: Python 3.8 or higher and pip is required.
 
 ```bash
 # clone the repo and change directory
