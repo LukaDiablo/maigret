@@ -15,6 +15,7 @@ import logging
 import os
 import platform
 import re
+import ssl
 import sys
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from time import monotonic
@@ -137,9 +138,12 @@ async def get_response(request_future, error_type, social_network, logger):
 
         logger.debug(html_text)
 
-    except asyncio.exceptions.TimeoutError as errt:
+    except asyncio.TimeoutError as errt:
         error_text = "Timeout Error"
         expection_text = str(errt)
+    except ssl.SSLCertVerificationError as err:
+        error_text = "SSL Error"
+        expection_text = str(err)
     except aiohttp.client_exceptions.ClientConnectorError as err:
         error_text = "Error Connecting"
         expection_text = str(err)
@@ -213,7 +217,8 @@ async def sherlock(username, site_data, query_notify, logger,
         max_workers=len(site_data)
 
     # TODO: connector
-    session = aiohttp.ClientSession()
+    connector = aiohttp.TCPConnector(ssl=False)
+    session = aiohttp.ClientSession(connector=connector)
 
     # Results from analysis of all sites
     results_total = {}
