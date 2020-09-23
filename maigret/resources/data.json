@@ -165,7 +165,7 @@
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "AdultFriendFinder": {
-    "errorMsg": "I am/We are a",
+    "errorMsg": "<select name=\"REG_sex\" >",
     "errorType": "message",
     "rank": 2945,
     "request_head_only": false,
@@ -5355,7 +5355,8 @@
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Taringa": {
-    "errorType": "status_code",
+    "errorType": "message",
+    "errorMsg": "Moved Permanently",
     "rank": 2913,
     "tags": [
       "ar",
