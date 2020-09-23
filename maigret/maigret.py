@@ -141,7 +141,7 @@ async def get_response(request_future, error_type, social_network, logger):
     except asyncio.TimeoutError as errt:
         error_text = "Timeout Error"
         expection_text = str(errt)
-    except ssl.SSLCertVerificationError as err:
+    except (ssl.SSLCertVerificationError, ssl.SSLError) as err:
         error_text = "SSL Error"
         expection_text = str(err)
     except aiohttp.client_exceptions.ClientConnectorError as err:
