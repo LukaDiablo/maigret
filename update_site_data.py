@@ -19,6 +19,7 @@ RANKS.update({
     '10000': '10K',
     '100000': '100K',
     '10000000': '1M',
+    '50000000': '10M',
 })
 
 def get_rank(domain_to_query, dest, print_errors=True):

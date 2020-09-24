@@ -13,7 +13,7 @@ Purpose of Maigret - **collect a dossier on a person by username only**, checkin
 This is a [sherlock](https://github.com/sherlock-project/) fork with cool features under heavy development.
 *Don't forget to regularly update source code from repo*.
 
-Currently supported **[>600 sites](/sites.md)**, the list grows every day.
+Currently supported **[>1100 sites](/sites.md)**, the list is constantly grows.
 
 ## Main features
 
@@ -25,7 +25,7 @@ Currently supported **[>600 sites](/sites.md)**, the list grows every day.
 
 ## Installation
 
-**NOTE**: Python 3.8 or higher and pip is required.
+**NOTE**: Python 3.7 or higher and pip is required.
 
 ```bash
 # clone the repo and change directory
