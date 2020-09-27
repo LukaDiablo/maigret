@@ -13,7 +13,7 @@ Purpose of Maigret - **collect a dossier on a person by username only**, checkin
 This is a [sherlock](https://github.com/sherlock-project/) fork with cool features under heavy development.
 *Don't forget to regularly update source code from repo*.
 
-Currently supported **[>1100 sites](/sites.md)**, the list is constantly grows.
+Currently supported >1200 sites ([full list](/sites.md)).
 
 ## Main features
 
