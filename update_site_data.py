@@ -107,7 +107,10 @@ Rank data fetched from Alexa by domains.
             valid_rank = get_step_rank(rank)
             all_tags = data[site].get('tags', [])
             tags = ', ' + ', '.join(all_tags) if all_tags else ''
-            site_file.write(f'1. [{site}]({url_main})*: top {valid_rank}{tags}*\n')
+            note = ''
+            if data[site].get('disabled'):
+                note = ', search is disabled'
+            site_file.write(f'1. [{site}]({url_main})*: top {valid_rank}{tags}*{note}\n')
 
         site_file.write(f'\nAlexa.com rank data fetched at ({datetime.utcnow()} UTC)\n')
 

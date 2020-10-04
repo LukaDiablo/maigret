@@ -47,6 +47,7 @@ common_errors = {
     '<title>Attention Required! | Cloudflare</title>': 'Cloudflare captcha',
     '<title>Доступ ограничен</title>': 'Rostelecom censorship',
     'document.getElementById(\'validate_form_submit\').disabled=true': 'Mail.ru captcha',
+    'Verifying your browser, please wait...<br>DDoS Protection by</font> Blazingfast.io': 'Blazingfast protection',
 }
 
 unsupported_characters = '#'
@@ -424,7 +425,9 @@ async def sherlock(username, site_data, query_notify, logger,
         if status_code and not error_text:
             error_text, site_error_text = detect_error_page(html_text, status_code, failure_errors, 'ignore_403' in net_info)
 
+
         if error_text is not None:
+            logger.debug(error_text)
             result = QueryResult(username,
                                  social_network,
                                  url,
@@ -514,6 +517,7 @@ async def sherlock(username, site_data, query_notify, logger,
         # Save results from request
         results_site['http_status'] = status_code
         results_site['response_text'] = html_text
+        results_site['rank'] = net_info.get('rank', 0)
 
         # Add this site's results into final dictionary with all of the other results.
         results_total[social_network] = results_site
