@@ -11,6 +11,19 @@
     "username_claimed": "donna",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "0k.clan.su": {
+    "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
+    "errorType": "message",
+    "rank": 0,
+    "regexCheck": "^[^\\.]+$",
+    "tags": [
+      "ru"
+    ],
+    "url": "http://0k.clan.su/index/8-0-{}",
+    "urlMain": "http://0k.clan.su",
+    "username_claimed": "eruzz",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "11x2": {
     "errorType": "status_code",
     "rank": 2750847,
@@ -447,6 +460,18 @@
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Alabay": {
+    "errorMsg": "\u043f\u0440\u043e\u0444\u0438\u043b\u044c \u0437\u0430\u0431\u0430\u043d\u0435\u043d \u0438\u043b\u0438 \u0443\u0434\u0430\u043b\u0435\u043d",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://alabay.forum24.ru/?32-{}",
+    "urlMain": "https://alabay.forum24.ru",
+    "username_claimed": "asian",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Alexgyver": {
     "errorMsg": "\u0423\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
     "errorType": "message",
@@ -601,6 +626,17 @@
     "username_claimed": "haruharuko3",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Amirite": {
+    "errorType": "status_code",
+    "rank": 893961,
+    "tags": [
+      "gb"
+    ],
+    "url": "https://www.amirite.com/user/{}",
+    "urlMain": "https://www.amirite.com",
+    "username_claimed": "red",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Amspb": {
     "errorMsg": "\u041f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0445 \u0442\u0435\u043c \u0438\u043b\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e.",
     "errorType": "message",
@@ -659,6 +695,19 @@
     "url": "https://angara.net/user/{}",
     "urlMain": "https://angara.net",
     "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Angelgothics": {
+    "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
+    "errorType": "message",
+    "rank": 0,
+    "regexCheck": "^[^\\.]+$",
+    "tags": [
+      "ru"
+    ],
+    "url": "http://angelgothics.ru/index/8-0-{}",
+    "urlMain": "http://angelgothics.ru",
+    "username_claimed": "GeoGRAF",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Anibox": {
@@ -1811,6 +1860,18 @@
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Bobrdobr": {
+    "errorType": "status_code",
+    "rank": 177658,
+    "tags": [
+      "az",
+      "ru"
+    ],
+    "url": "https://bobrdobr.ru/people/{}/",
+    "urlMain": "https://bobrdobr.ru",
+    "username_claimed": "igrozona",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "BodyBuilding": {
     "errorType": "response_url",
     "errorUrl": "https://bodyspace.bodybuilding.com/",
@@ -1989,6 +2050,18 @@
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "CPlusPlus": {
+    "errorMsg": "404 Page Not Found",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "kb"
+    ],
+    "url": "http://www.cplusplus.com/user/{}/",
+    "urlMain": "https://3examplesite.ru",
+    "username_claimed": "red",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Cad": {
     "errorMsg": "<title>\u0424\u043e\u0440\u0443\u043c</title>",
     "errorType": "message",
@@ -2125,6 +2198,17 @@
     "url": "http://www.casial.net/forum/members/{}.html",
     "urlMain": "http://www.casial.net",
     "username_claimed": "irgent",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Casino-affiliate-forum": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "de"
+    ],
+    "url": "https://www.casino-affiliate-forum.com/u/{}/summary",
+    "urlMain": "https://www.casino-affiliate-forum.com",
+    "username_claimed": "torstenw",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Caves": {
@@ -2307,6 +2391,18 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Chess-russia": {
+    "errorMsg": "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u0442\u0430\u043a\u043e\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f \u043d\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "http://www.chess-russia.ru/profile.php?mode=viewprofile&u={}",
+    "urlMain": "http://www.chess-russia.ru",
+    "username_claimed": "Sova0102",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Chessclub": {
     "errorMsg": "<title>Internet Chess Club Forum | Forum Home</title>",
     "errorType": "message",
@@ -2398,6 +2494,19 @@
     "url": "https://www.clozemaster.com/players/{}",
     "urlMain": "https://www.clozemaster.com",
     "username_claimed": "green",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Club-comedy.clan.su": {
+    "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
+    "errorType": "message",
+    "rank": 0,
+    "regexCheck": "^[^\\.]+$",
+    "tags": [
+      "ru"
+    ],
+    "url": "https://club-comedy.clan.su/index/8-0-{}",
+    "urlMain": "https://club-comedy.clan.su",
+    "username_claimed": "compserjeffcuar",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Cmet4uk": {
@@ -3032,6 +3141,17 @@
     "username_claimed": "markmark",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Dinsk": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://dinsk.su/user/{}",
+    "urlMain": "https://dinsk.su",
+    "username_claimed": "dinsk",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Discogs": {
     "errorType": "status_code",
     "rank": 1094,
@@ -3117,6 +3237,17 @@
     "url": "https://diveforum.spb.ru/profile.php?mode=viewprofile&u={}",
     "urlMain": "https://diveforum.spb.ru/",
     "username_claimed": "red",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Djangoproject.co": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "global"
+    ],
+    "url": "https://forum.djangoproject.com/u/{}/summary",
+    "urlMain": "https://forum.djangoproject.co",
+    "username_claimed": "mikhail349",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Dmyt": {
@@ -3495,6 +3626,18 @@
     "username_claimed": "susanc",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Enot-poloskun": {
+    "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://enot-poloskun.ru/member.php?username={}",
+    "urlMain": "https://enot-poloskun.ru/",
+    "username_claimed": "green",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Envato": {
     "errorMsg": "That page doesn\u2019t exist or is private.",
     "errorType": "message",
@@ -3719,6 +3862,18 @@
     "url": "https://www.f6s.com/{}",
     "urlMain": "https://f6s.com/",
     "username_claimed": "vidheeshnacode",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "FCRubin": {
+    "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d \u0438 \u043d\u0435 \u0438\u043c\u0435\u0435\u0442 \u043f\u0440\u043e\u0444\u0438\u043b\u044f \u0434\u043b\u044f \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430.",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://www.fcrubin.ru/forum/member.php?username={}",
+    "urlMain": "https://www.fcrubin.ru",
+    "username_claimed": "flet",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "FIFA FORUMS": {
@@ -4265,6 +4420,18 @@
     "username_claimed": "pirat4761",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Forum-ru.101xp.com": {
+    "errorMsg": "\u0423\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
+    "errorType": "message",
+    "rank": 61596,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://forum-ru.101xp.com/members/?username={}",
+    "urlMain": "https://forum-ru.101xp.com",
+    "username_claimed": "aida",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Forum-volgograd": {
     "errorMsg": "\u0423\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
     "errorType": "message",
@@ -4276,6 +4443,42 @@
     "url": "https://www.forum-volgograd.ru/members/?username={}",
     "urlMain": "https://www.forum-volgograd.ru",
     "username_claimed": "kajuga",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Forum.glow-dm.ru": {
+    "errorMsg": "\u0423\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "http://forum.glow-dm.ru/members/?username={}",
+    "urlMain": "http://forum.glow-dm.ru",
+    "username_claimed": "jkey",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Forum.jambox.ru": {
+    "errorMsg": "\u0423\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://forum.jambox.ru/member/?username={}",
+    "urlMain": "https://forum.jambox.ru",
+    "username_claimed": "ComManDX",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Forum.quake2.com.ru": {
+    "errorMsg": "<span class=\"gen\">,",
+    "errorType": "message",
+    "rank": 9570456,
+    "tags": [
+      "ru"
+    ],
+    "url": "http://forum.quake2.com.ru/profile.php?mode=viewprofile&u={}",
+    "urlMain": "http://forum.quake2.com.ru/",
+    "username_claimed": "Khidalov",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Forum29": {
@@ -4337,6 +4540,17 @@
     "url": "https://forumprosport.ru/member.php?username={}",
     "urlMain": "https://forumprosport.ru/",
     "username_claimed": "green",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "ForumSmotri": {
+    "errorType": "status_code",
+    "rank": 2007724,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://forumsmotri.club/user/{}/",
+    "urlMain": "https://forumsmotri.club",
+    "username_claimed": "red",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Forum_motorka": {
@@ -4687,6 +4901,29 @@
     "username_claimed": "Marja_Berggren",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Furiffic": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "kb"
+    ],
+    "url": "https://www.furiffic.com/{}",
+    "urlMain": "https://www.furiffic.com/",
+    "username_claimed": "red",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "FurryFandom": {
+    "errorMsg": "\u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u043f\u043e\u0438\u0441\u043a \u043f\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://furry-fandom.ru/user?who={}",
+    "urlMain": "https://furry-fandom.ru/",
+    "username_claimed": "Finya",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "G-news": {
     "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f \u043d\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442.",
     "errorType": "message",
@@ -4853,6 +5090,17 @@
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "GaragePunk": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "us"
+    ],
+    "url": "https://www.garagepunk.com/profile/{}",
+    "urlMain": "https://www.garagepunk.com",
+    "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Garden": {
     "errorType": "response_url",
     "rank": 57760,
@@ -4890,6 +5138,17 @@
     "urlMain": "https://www.gardenstew.com",
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis777"
+  },
+  "Gays": {
+    "errorType": "status_code",
+    "rank": 3059542,
+    "tags": [
+      "global"
+    ],
+    "url": "https://www.gays.com/p/{}/",
+    "urlMain": "https://www.gays.com",
+    "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
   },
   "Geekdoing": {
     "errorMsg": "The specified member cannot be found",
@@ -5436,6 +5695,19 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Gunandgame": {
+    "errorMsg": "The specified member cannot be found. Please enter a member's entire name.",
+    "errorType": "message",
+    "ignore_403": true,
+    "rank": 0,
+    "tags": [
+      "us"
+    ],
+    "url": "https://www.gunandgame.com/members/?username={}",
+    "urlMain": "https://www.gunandgame.co",
+    "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Gunboards": {
     "errorMsg": "This user has not registered and therefore does not have a profile to view.",
     "errorType": "message",
@@ -5699,6 +5971,18 @@
     "urlMain": "https://www.hockeyforum.com",
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis777"
+  },
+  "Holiday.ru": {
+    "errorMsg": "\u0410\u043d\u043a\u0435\u0442\u0430 \u0443\u0434\u0430\u043b\u0435\u043d\u0430, \u0437\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u0430",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://www.holiday.ru/ru/{}",
+    "urlMain": "https://www.holiday.ru",
+    "username_claimed": "marina",
+    "username_unclaimed": "noonewouldeverusethis7"
   },
   "Hometheaterforum": {
     "errorMsg": "The specified member cannot be found",
@@ -6236,6 +6520,18 @@
     "username_claimed": "god",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Jer.forum24.ru": {
+    "errorMsg": "\u043f\u0440\u043e\u0444\u0438\u043b\u044c \u0437\u0430\u0431\u0430\u043d\u0435\u043d \u0438\u043b\u0438 \u0443\u0434\u0430\u043b\u0435\u043d",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "http://jer.forum24.ru/?32-{}",
+    "urlMain": "http://jer.forum24.ru",
+    "username_claimed": "aga",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Jetpunk": {
     "errorMsg": "404 File Not Found",
     "errorType": "message",
@@ -6345,6 +6641,17 @@
     "url": "https://api.kano.me/progress/user/{}",
     "urlMain": "https://world.kano.me/",
     "username_claimed": "blue",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Kashalot": {
+    "errorType": "status_code",
+    "rank": 85816,
+    "tags": [
+      "ua"
+    ],
+    "url": "https://kashalot.com/users/{}/",
+    "urlMain": "https://kashalot.com",
+    "username_claimed": "incognito",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Kaskus": {
@@ -6742,6 +7049,17 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Liebe69": {
+    "errorType": "response_url",
+    "rank": 0,
+    "tags": [
+      "de"
+    ],
+    "url": "https://www.liebe69.de/profile-preview.php?username={}",
+    "urlMain": "https://www.liebe69.de",
+    "username_claimed": "klaus",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Life-dom2": {
     "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u0441 \u0442\u0430\u043a\u0438\u043c \u0438\u043c\u0435\u043d\u0435\u043c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d.",
     "errorType": "message",
@@ -7137,6 +7455,17 @@
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Macqa": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://macqa.ru/member/{}/",
+    "urlMain": "https://macqa.ru",
+    "username_claimed": "vika",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Mactalk": {
     "errorMsg": "<title>MacTalk</title>",
     "errorType": "message",
@@ -7326,6 +7655,17 @@
     ],
     "url": "https://www.mbclub.ru/forum/members/?username={}",
     "urlMain": "https://www.mbclub.ru/",
+    "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Mcbans": {
+    "errorType": "response_url",
+    "rank": 0,
+    "tags": [
+      "us"
+    ],
+    "url": "https://www.mcbans.com/player/{}/",
+    "urlMain": "https://www.mcbans.com",
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -7577,6 +7917,17 @@
     "username_claimed": "jenny",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Mixlr": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "gb"
+    ],
+    "url": "http://api.mixlr.com/users/{}",
+    "urlMain": "http:/mixlr.com/",
+    "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Mixupload": {
     "errorType": "status_code",
     "rank": 82421,
@@ -7825,6 +8176,17 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "MurmanskLife": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "http://murmansk-life.ru/profile/{}",
+    "urlMain": "http://murmansk-life.ru",
+    "username_claimed": "SEO_Shkola",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Music-rock": {
     "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d",
     "errorType": "message",
@@ -8034,6 +8396,17 @@
     ],
     "url": "https://www.mybuilder.com/profile/view/{}",
     "urlMain": "https://www.mybuilder.com",
+    "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Mydarling": {
+    "errorType": "status_code",
+    "rank": 8853785,
+    "tags": [
+      "ru"
+    ],
+    "url": "http://mydarling.ru/page/{}/frl-4",
+    "urlMain": "http://mydarling.ru/",
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -8410,6 +8783,18 @@
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Numizmat": {
+    "errorMsg": "\u041f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0445 \u0442\u0435\u043c \u0438\u043b\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e.",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://numizmat-forum.ru/search.php?keywords=&terms=all&author={}",
+    "urlMain": "https://numizmat-forum.ru",
+    "username_claimed": "solo",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "NuviGarmin": {
     "errorType": "status_code",
     "rank": 796782,
@@ -8674,6 +9059,18 @@
     "username_claimed": "username",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "P38forum": {
+    "errorMsg": "This user has not registered and therefore does not have a profile to view.",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "kb"
+    ],
+    "url": "http://p38forum.com/forums/member.php?username={}",
+    "urlMain": "http://p38forum.com",
+    "username_claimed": "red",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "PCGamer": {
     "errorMsg": "The specified member cannot be found. Please enter a member's entire name.",
     "errorType": "message",
@@ -8777,6 +9174,19 @@
     "url": "https://pandia.ru/user/profile/{}",
     "urlMain": "https://pandia.ru",
     "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Parkrocker": {
+    "errorMsg": "Das gew\u00fcnschte Mitglied kann",
+    "errorType": "message",
+    "rank": 0,
+    "request_head_only": false,
+    "tags": [
+      "de"
+    ],
+    "url": "https://www.parkrocker.net/mitglieder/?username={}",
+    "urlMain": "https://www.parkrocker.net",
+    "username_claimed": "diablo0106",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Partyflock": {
@@ -8911,6 +9321,19 @@
     "url": "https://pedsovet.su/index/8-0-{}",
     "urlMain": "https://pedsovet.su/",
     "username_claimed": "blue",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "PeopleAndCountries": {
+    "errorMsg": "\u0423\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f \u043d\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442",
+    "errorType": "message",
+    "rank": 503417,
+    "tags": [
+      "global",
+      "ru"
+    ],
+    "url": "http://peopleandcountries.com/space-username-{}.html",
+    "urlMain": "http://peopleandcountries.com",
+    "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "PeopleIgn": {
@@ -9207,6 +9630,20 @@
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Playlists": {
+    "errorMsg": "Sorry we can't find that page",
+    "errorType": "message",
+    "rank": 175404,
+    "regexCheck": "^[^\\.]+$",
+    "tags": [
+      "global",
+      "us"
+    ],
+    "url": "https://playlists.net/members/{}",
+    "urlMain": "https://playlists.net",
+    "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "PlaystationTrophies": {
     "errorMsg": "This user has not registered and therefore does not have a profile to view.",
     "errorType": "message",
@@ -9326,16 +9763,18 @@
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "PokerStrategy": {
-    "errorType": "status_code",
-    "rank": 32747,
-    "request_head_only": false,
+    "errorMsg": "Sorry, the requested page couldn't be found!",
+    "errorType": "message",
+    "errors": {
+      "PokerStrategy.org not available in": "Country restrictions"
+    },
+    "rank": 10044656,
     "tags": [
-      "de",
-      "global"
+      "ru"
     ],
-    "url": "https://www.pokerstrategy.com/user/{}/profile/",
-    "urlMain": "https://www.pokerstrategy.com",
-    "username_claimed": "adam",
+    "url": "http://www.pokerstrategy.net/user/{}/profile/",
+    "urlMain": "http://www.pokerstrategy.net",
+    "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Politforums": {
@@ -9514,6 +9953,18 @@
     "url": "https://proglib.io/u/{}/posts",
     "urlMain": "https://proglib.io",
     "username_claimed": "red",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "ProgrammersForum": {
+    "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d \u0438 \u043d\u0435 \u0438\u043c\u0435\u0435\u0442 \u043f\u0440\u043e\u0444\u0438\u043b\u044f \u0434\u043b\u044f \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430.",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://www.programmersforum.ru/member.php?username={}",
+    "urlMain": "https://www.programmersforum",
+    "username_claimed": "farts",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Prokoni": {
@@ -9796,7 +10247,20 @@
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "RRForums": {
+    "errorMsg": "Profile Does Not Exist",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "au"
+    ],
+    "url": "http://au.rrforums.net/cgi-bin/forum/board-profile.pl?action=view_profile&profile={}-users",
+    "urlMain": "http://au.rrforums.net/",
+    "username_claimed": "guyslp",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Radio-uchebnik": {
+    "disabled": true,
     "errorMsg": "\u041f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0445 \u0442\u0435\u043c \u0438\u043b\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e.",
     "errorType": "message",
     "rank": 362156,
@@ -10176,10 +10640,10 @@
   },
   "ReverbNation": {
     "errorMsg": "Sorry, we couldn't find that page",
+    "errorType": "message",
     "errors": {
       "But your computer or network appears to be generating a lot of automated requests": "Too many requests"
     },
-    "errorType": "message",
     "rank": 8271,
     "regexCheck": "^[^\\.]+$",
     "tags": [
@@ -10299,16 +10763,19 @@
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
-  "Romanticcollection": {
+  "RomanticCollection": {
     "errorMsg": "\u041f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0445 \u0442\u0435\u043c \u0438\u043b\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e.",
     "errorType": "message",
+    "errors": {
+      "\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0441\u0442\u0438 \u043f\u043e\u0438\u0441\u043a \u0441\u0440\u0430\u0437\u0443 \u043f\u043e\u0441\u043b\u0435 \u043f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0435\u0433\u043e": "Too many requests"
+    },
     "rank": 170569,
     "tags": [
       "ru"
     ],
     "url": "https://www.romanticcollection.ru/forum/search.php?keywords=&terms=all&author={}",
     "urlMain": "https://www.romanticcollection.ru",
-    "username_claimed": "\u044e\u043b\u0438\u044f",
+    "username_claimed": "Prim@",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Root-me": {
@@ -10335,6 +10802,18 @@
     "url": "https://www.rottentomatoes.com/critic/{}/movies",
     "urlMain": "https://www.rottentomatoes.com",
     "username_claimed": "ben-allen",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Rovlpj": {
+    "errorMsg": "\u0423\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0434\u0440\u0443\u0433\u043e\u0435 \u0438\u043c\u044f.",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://rovlpj.com/members/?username={}",
+    "urlMain": "https://rovlpj.com",
+    "username_claimed": "red",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "RoyalCams": {
@@ -10397,6 +10876,17 @@
     "url": "https://rubygems.org/profiles/{}",
     "urlMain": "https://rubygems.org/",
     "username_claimed": "blue",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Rugby-forum": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "http://rugby-forum.ru/polzovateli/{}/",
+    "urlMain": "http://rugby-forum.ru",
+    "username_claimed": "bold",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Runitonce": {
@@ -10809,6 +11299,17 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis"
   },
+  "Shoe": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "global"
+    ],
+    "url": "http://{}.shoe.org/",
+    "urlMain": "http://shoe.org",
+    "username_claimed": "red",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Shophelp": {
     "errorType": "status_code",
     "rank": 233948,
@@ -10894,6 +11395,18 @@
     "url": "https://www.silver-collector.com/u/{}/summary",
     "urlMain": "https://www.silver-collector.com",
     "username_claimed": "red",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "SkodaForum": {
+    "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d \u0438 \u043d\u0435 \u0438\u043c\u0435\u0435\u0442 \u043f\u0440\u043e\u0444\u0438\u043b\u044f \u0434\u043b\u044f \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430.",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "http://www.skodaforum.ru/member.php?username={}",
+    "urlMain": "http://www.skodaforum.ru",
+    "username_claimed": "rivera",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Skyrimforums": {
@@ -11121,6 +11634,17 @@
     "username_claimed": "red",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Soobshestva": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "http://www.soobshestva.ru/forum/user/{}/",
+    "urlMain": "http://www.soobshestva.ru/",
+    "username_claimed": "lisa",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "SoundCloud": {
     "errorType": "status_code",
     "rank": 101,
@@ -11228,6 +11752,17 @@
     "urlMain": "https://speedrun.com/",
     "username_claimed": "3Tau",
     "username_unclaimed": "noonewould"
+  },
+  "SpiceWorks": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "us"
+    ],
+    "url": "https://community.spiceworks.com/people/{}",
+    "urlMain": "https://community.spiceworks.co",
+    "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
   },
   "Splits.io": {
     "errorType": "status_code",
@@ -11580,6 +12115,17 @@
     "url": "http://syktforum.ru/profile/{}",
     "urlMain": "http://syktforum.ru",
     "username_claimed": "TonyT",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "SyktyvkarOnline": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "http://syktyvkar-online.ru/profile/{}",
+    "urlMain": "http://syktyvkar-online.ru",
+    "username_claimed": "vcaun53",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Sysadmins": {
@@ -12631,6 +13177,17 @@
     "username_claimed": "red",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Uwr1": {
+    "errorType": "status_code",
+    "rank": 0,
+    "tags": [
+      "de"
+    ],
+    "url": "http://uwr1.de/forum/profile/{}",
+    "urlMain": "http://uwr1.de",
+    "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "VC.ru": {
     "errorMsg": "\u041c\u044b \u0432\u0441\u0435 \u0432\u043d\u0438\u043c\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u043b\u0438, \u043d\u043e \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043d\u0430\u0448\u043b\u0438 :(",
     "errorType": "message",
@@ -12678,6 +13235,18 @@
     ],
     "url": "http://forums.vkmonline.com/member.php?username={}",
     "urlMain": "http://forums.vkmonline.com",
+    "username_claimed": "irina",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "VKruguDruzei": {
+    "errorType": "response_url",
+    "rank": 186591,
+    "tags": [
+      "by",
+      "ru"
+    ],
+    "url": "http://{}.vkrugudruzei.ru/x/blog/all/",
+    "urlMain": "http://vkrugudruzei.ru",
     "username_claimed": "irina",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -12862,18 +13431,6 @@
     "url": "https://www.vivino.com/users/{}",
     "urlMain": "https://www.vivino.com/",
     "username_claimed": "adam",
-    "username_unclaimed": "noonewouldeverusethis7"
-  },
-  "VKruguDruzei": {
-    "errorType": "response_url",
-    "rank": 186591,
-    "tags": [
-      "by",
-      "ru"
-    ],
-    "url": "http://{}.vkrugudruzei.ru/x/blog/all/",
-    "urlMain": "http://vkrugudruzei.ru",
-    "username_claimed": "irina",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Vlmi": {
@@ -13507,6 +14064,18 @@
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "XXXForum.org": {
+    "errorMsg": "\u041f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0445 \u0442\u0435\u043c \u0438\u043b\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e.",
+    "errorType": "message",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://xxxforum.org/search.php?keywords=&terms=all&author={}",
+    "urlMain": "https://xxxforum.org",
+    "username_claimed": "tangar",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "Xbox Gamertag": {
     "errorType": "status_code",
     "errors": {
@@ -13807,6 +14376,17 @@
     "url": "https://zhyk.ru/forum/member.php?username={}",
     "urlMain": "https://zhyk.ru",
     "username_claimed": "adam",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Zmey": {
+    "errorType": "response_url",
+    "rank": 0,
+    "tags": [
+      "ru"
+    ],
+    "url": "https://zmey.ru/user/@{}",
+    "urlMain": "https://zmey.ru",
+    "username_claimed": "alec",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Zomato": {
